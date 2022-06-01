@@ -1,17 +1,27 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
 }
 
-.header {
-    display: flex;
+.header .title {
+    font-size: 24px;
+    color: #F9FAF8;
+} 
+
+.header .links,
+.media-text .text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .links ul {
-    display: flex;
-}
-
-.media-object {
     display: flex;
 }
 
@@ -20,9 +30,21 @@ body {
     flex-direction: column;
 }
 
+.media-text .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
 .random-info {
     display: flex;
     flex-direction: column;
+}
+
+.random-info .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .cards {
@@ -37,6 +59,14 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .call-to-action {
@@ -47,6 +77,14 @@ body {
     display: flex;
 }
 
-.footer {
+.footer,
+.header,
+.media-object {
     display: flex;
+    background-color: #1f2937;
+}
+
+.signup-button,
+.popup {
+    background-color: #3882f6;
 }

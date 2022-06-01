@@ -16,9 +16,22 @@ body {
 } 
 
 .header .links,
+.footer,
+.popup,
+.quote .author,
 .media-text .text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.quote .author {
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+.popup .title {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .links ul {
@@ -26,6 +39,7 @@ body {
 }
 
 .media-object {
+    display: flex;
     padding: 20px;
     gap: 20px
 }
@@ -34,14 +48,15 @@ body {
     border-radius: 10px;
     object-position: center;
     object-fit: cover;
-    min-height: 300px;
-    min-width: 400px;
+    height: 375px;
+    width: auto;
 }
 
 .media-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: flex-start;
 }
 
 .media-text .title {
@@ -104,11 +119,16 @@ body {
 }
 
 .call-to-action {
+    padding: 30px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .popup {
+    padding: 20px;
     display: flex;
+    border-radius: 10px;
 }
 
 .footer,
@@ -121,4 +141,22 @@ body {
 .signup-button,
 .popup {
     background-color: #3882f6;
+}
+
+
+.signup-button {
+    border: none;
+    padding: 8px 30px;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.popup .signup-button {
+    border-style: solid;
+}
+
+.footer {
+    justify-content: center;
+    padding: 30px;
 }

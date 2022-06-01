@@ -13,6 +13,7 @@ body {
 .header .title {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
 } 
 
 .header .links,
@@ -22,6 +23,12 @@ body {
 .media-text .text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
 }
 
 .quote .author {
@@ -36,11 +43,13 @@ body {
 
 .links ul {
     display: flex;
+    justify-content: space-around;
+    gap: 40px;
 }
 
 .media-object {
     display: flex;
-    padding: 20px;
+    padding: 40px;
     gap: 20px
 }
 
@@ -69,11 +78,14 @@ body {
     display: flex;
     flex-direction: column;
     color: #1f2937;
+    padding: 40px;
+    gap: 40px;
 }
 
 .random-info .title {
     font-size: 36px;
     font-weight: bolder;
+    align-self: center;
 }
 
 .cards {
@@ -87,6 +99,8 @@ body {
     align-items: center;
     font-size: 18px;
     width: 200px;
+    text-align: center;
+    gap: 10px;
 }
 
 .image {
@@ -109,6 +123,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    padding: 40px;
+    gap: 10px;
 }
 
 .quote .text {

@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.links ul {
+    display: flex;
+}
+
+.media-object {
+    display: flex;
+}
+
+.media-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action {
+    display: flex;
+}
+
+.popup {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}

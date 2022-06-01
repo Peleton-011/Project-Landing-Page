@@ -25,9 +25,23 @@ body {
     display: flex;
 }
 
+.media-object {
+    padding: 20px;
+    gap: 20px
+}
+
+.media-object img {
+    border-radius: 10px;
+    object-position: center;
+    object-fit: cover;
+    min-height: 300px;
+    min-width: 400px;
+}
+
 .media-text {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .media-text .title {
@@ -39,21 +53,41 @@ body {
 .random-info {
     display: flex;
     flex-direction: column;
+    color: #1f2937;
 }
 
 .random-info .title {
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
 }
 
 .cards {
     display: flex;
+    justify-content: space-around;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    width: 200px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    border: 5px solid #3882f6;
+    
+}
+
+.image img {
+    border-radius: 10px;
+    object-position: center;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
 }
 
 .quote {

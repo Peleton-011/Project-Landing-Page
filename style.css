@@ -71,8 +71,9 @@ body {
     border-radius: 10px;
     object-position: center;
     object-fit: cover;
-    height: 325px;
-    width: auto;
+    max-height: 325px;
+    max-width: auto;
+    flex-shrink: 1;
 }
 
 .media-text {
@@ -106,6 +107,7 @@ body {
 .cards {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card {

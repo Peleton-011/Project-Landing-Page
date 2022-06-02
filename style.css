@@ -4,24 +4,22 @@
 
 .header .links .link a,
 .footer,
-.popup,
 .quote .author,
 .media-text .text {
     text-decoration: none;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #0e172c;
 }
 
 .footer,
 .header,
 .media-object {
     display: flex;
-    background-color: #1f2937;
+    background-color: #fec7d7;
 }
 
-.signup-button,
 .popup {
-    background-color: #3882f6;
+    background-color: #fec7d7;
 }
 
 body {
@@ -30,11 +28,12 @@ body {
     margin: 0px;
     height: 100vh;
     width: 100vw;
+    background-color: #fffffe;
 }
 
 .header .title {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #0e172c;
     font-weight: bolder;
 } 
 
@@ -87,7 +86,7 @@ body {
 .media-text .title {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
+    color: #0e172c;
 }
 
 .random-info {
@@ -123,8 +122,8 @@ body {
 .image {
     height: 200px;
     width: 200px;
-    border-radius: 15px;
-    border: 5px solid #3882f6;
+    border-radius: 13px;
+    border: 3px solid #0e172c;
     
 }
 
@@ -139,7 +138,7 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;
+    background-color: #d9d4e7;
     padding: 40px 15vw;
     gap: 10px;
 }
@@ -163,29 +162,30 @@ body {
     display: flex;
     border-radius: 10px;
     gap: 40px;
+    background-color: #a786df;
 }
 
 .signup-button {
-    border: none;
     padding: 8px 30px;
-    color: #F9FAF8;
+    color: #0e172c;
     font-size: 18px;
     border-radius: 10px;
+    border: 3px solid #0e172c;
+    background-color: #fec7d7;
 }
 
 .popup .signup-button {
-    border-style: solid;
+    background-color: #a786df;
+}
+
+.signup-button:active {
+    color: #fec7d7;
+    background-color: #0e172c;
 }
 
 .popup .signup-button:active {
-    background-color: #1f2937;
-}
-
-.media-text .signup-button:active {
-    background-color: #1f2937;
-    padding: 5px 27px;
-    border-width: 3px;
-    border-style: solid;
+    color: #a786df;
+    background-color: #0e172c;
 }
 
 .footer {
